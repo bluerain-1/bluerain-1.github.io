@@ -1,0 +1,45 @@
+*{
+    margin: 0%;
+}
+
+body{
+    padding-bottom: 100px ;
+    background: linear-gradient( to top left, rgba(33, 33, 124, 0.89)
+    , rgba(42, 42, 105, 0.795),rgba(73, 80, 143, 0.329),rgba(35, 35, 109, 0.699), rgb(25, 25, 82));
+}
+
+
+div{
+    background: url(./image/treefontp3.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 2000px;
+    background-attachment: fixed;
+}
+
+p{
+     background-position: center;
+    width: 600px;
+    padding-top: 30px;
+    margin-left: 400px;
+    font-family: Mansalva;
+    color: white;
+    font-size: 20px;
+}
+
+.fonttitle{
+    background-position: center;
+    width: 600px;
+    padding-top: 30px;
+    margin-left: 400px;
+    font-family: Mansalva;
+    color: white;
+    text-decoration: underline;
+
+
+}
+
+a{
+    font-family: Mansalva;
+    color: white;
+}

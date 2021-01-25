@@ -1,6 +1,8 @@
+
 :root{
     background: linear-gradient(rgb(223, 171, 94),rgba(214, 205, 75, 0.582),rgb(252, 252, 145));
     height: 100px;;
+    --colorPacifico: Pacifico;
 }
 
 img{
@@ -54,4 +56,53 @@ img{
         z-index: 2;
         transition: all background;
     }
+}
+.title{
+    font-style: oblique;
+    text-decoration: underline;
+    text-align: center;
+}
+.font{
+    height: 700px;
+    background: url(./image/im1font.jpg);
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: fon 10s infinite;
+    position: relative;
+    background-attachment: fixed;
+}
+
+
+
+
+
+@keyframes fon{
+    0%{
+        
+        background: url(./image/im2font.jpg);
+        justify-content: center;
+        align-items: center;
+        background-repeat: no-repeat;
+        background-position: center;
+        animation: fon 1s infinite;
+        position: relative;
+        background-attachment: fixed;
+        transition: all background;
+    
+    }
+}
+p{
+    color: rgb(82, 85, 77);
+    float: left;
+    background-position: center;
+    width: 400px;
+    margin-left: 500px;
+    font-family: var(--colorPacifico);
+}
+a{
+    font-family: var(--colorPacifico);
+    font-size: 30px;
+    color: black;
 }
