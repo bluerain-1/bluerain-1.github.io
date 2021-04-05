@@ -1,0 +1,83 @@
+:root {
+  --fontHachi: Hachi Maru Pop;
+}
+
+div {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: overline;
+  font-family: var(--fontHachi);
+  height: 600px;
+}
+.photo-1,
+.photo-2,
+.photo-3 {
+  display: inline-flex;
+  height: 200px;
+  width: 200px;
+}
+
+.photo-2 {
+  background: rgb(15, 155, 108);
+}
+
+.photo-3 {
+  background-color: cornflowerblue;
+}
+.photo-1 {
+  background: lightcoral;
+}
+
+.photo-1:hover,
+.photo-2:hover,
+.photo-3:hover {
+  background: rgb(231, 108, 215);
+  transition: background 1s, border-radius 2s;
+  border-radius: 50%;
+}
+
+h1 {
+  text-align: left;
+}
+
+.Poctopus {
+  background: url(./image/Poctopus.jpeg);
+  background-color: rgb(248, 204, 204);
+}
+.Pnuages {
+  background: url(./image/Pnuage.jpeg);
+  background-color: rgb(208, 243, 208);
+}
+.Pfish {
+  background: url(./image/Pfish.jpeg);
+  background-color: lightseagreen;
+}
+.info {
+  font-size: 20px;
+  font-family: var(--fontHachi);
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.Poctopus,
+.Pnuages,
+.Pfish {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+p {
+  text-align: right;
+  text-indent: 70%;
+}
+
+.end {
+  font-family: var(--fontHachi);
+  text-size-adjust: 40px;
+  font-weight: bold;
+  font-style: oblique;
+  color: rgb(255, 16, 223);
+  border: 2px solid black;
+}

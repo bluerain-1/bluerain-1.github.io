@@ -1,0 +1,65 @@
+* {
+  margin: 0%;
+}
+
+body {
+  padding-bottom: 100px;
+  background: linear-gradient(
+    to top left,
+    rgba(33, 33, 124, 0.89),
+    rgba(42, 42, 105, 0.795),
+    rgba(73, 80, 143, 0.329),
+    rgba(35, 35, 109, 0.699),
+    rgb(25, 25, 82)
+  );
+}
+
+.all {
+  background: url(./image/treefontp3.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 2000px;
+  background-attachment: fixed;
+}
+
+.all p {
+  background-position: center;
+  width: 600px;
+  padding-top: 30px;
+  margin-left: 400px;
+  font-family: Mansalva;
+  color: white;
+  font-size: 1.3rem;
+  background-attachment: fixed;
+  font-style: italic;
+}
+
+.fonttitle {
+  background-position: center;
+  width: 600px;
+  padding-top: 30px;
+  margin-left: 400px;
+  font-family: Mansalva;
+  color: white;
+  text-decoration: underline;
+}
+
+a {
+  font-family: Mansalva;
+  color: white;
+}
+
+.btn1 {
+  float: right;
+}
+.para {
+  float: right;
+  font-family: Mansalva;
+  color: white;
+}
+
+.art {
+  color:rgba(36, 192, 219, 0.671);
+  font-weight: 800;
+  font-size: 2rem;
+}

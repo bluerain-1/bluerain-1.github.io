@@ -1,0 +1,64 @@
+:root {
+  background-color: rgb(0, 0, 0);
+  --colorpotta: Potta One;
+}
+
+.btn1 {
+  float: right;
+}
+.para {
+  float: right;
+}
+
+a {
+  font-family: fantasy;
+  margin: 15px;
+  color: #ac5df7;
+  animation: move 1s infinite;
+}
+.title,
+h1 {
+  color: white;
+  position: relative;
+}
+.trip {
+  color: white;
+  font-family: var(--colorpotta);
+}
+p {
+  color: white;
+  font-family: var(--colorpotta);
+}
+.korea {
+  background: url(./image/corée3.jpeg);
+  height: 400px;
+}
+.korea:hover {
+  background: url(./image/coréepage2.jpeg);
+  transition: background 2s;
+  height: 400px;
+}
+
+/* .mylife{
+    font-family: monospace;
+    font-style: oblique;
+    text-decoration: underline;
+    font-size: 30px;
+    text-align: center;
+} */
+
+@keyframes move {
+  0% {
+    color: violet;
+    transform: translateX(20px);
+  }
+  50% {
+    color: yellow;
+    transform: translateX(100px);
+  }
+  100% {
+    color: violet;
+    transform: translateX(60%);
+    transition-timing-function: linear;
+  }
+}

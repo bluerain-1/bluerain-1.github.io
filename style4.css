@@ -1,0 +1,55 @@
+body {
+  background: black;
+  background-image: url(./image/star.jpeg);
+  background-attachment: fixed;
+}
+a {
+  font-family: "Potta One";
+  color: white;
+  font-size: 1.5rem;
+}
+.para {
+  font-family: "Potta One";
+  color: white;
+  float: right;
+  font-size: 1.2rem;
+}
+.para1 {
+  font-family: "Potta One";
+  color: white;
+  background-position: center;
+  padding: 10rem 20rem;
+  font-size: 1.2rem;
+}
+
+.img1 {
+  /* border-radius: 60%; */
+  width: 20%;
+  margin-left: 30%;
+}
+.img2 {
+  /* border-radius: 60%; */
+  width: 20%;
+}
+.img3 {
+  /* border-radius: 60%; */
+  width: 20%;
+  margin-left: 30%;
+}
+.img4 {
+  /* border-radius: 60%; */
+  width: 20%;
+}
+.btn1 {
+  float: right;
+}
+
+/* app text */
+.text-app {
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.ade {
+  opacity: 1;
+}
