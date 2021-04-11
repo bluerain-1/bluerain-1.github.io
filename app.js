@@ -27,7 +27,7 @@ for(i=0; i< splitText.length; i++){
 }
 
 let char = 0;
-let timer = setInterval(onTick, 15);
+let timer = setInterval(onTick, 1);
 
 function onTick(){
     const span = bigText.querySelectorAll('span')[char];
@@ -43,3 +43,21 @@ function complete(){''
     clearInterval(timer);
     timer = null;
 }
+
+function reveal(){
+    var reveals = document.querySelectorAll('.reveal');
+    for( var i = 0; i < reveals.length; i++){
+        var windowHeight = window.innerHeight;
+        var revealTop = reveals[i].getBoundingClientRect().top;
+        var revealpoint = 50;
+        if(revealTop < windowHeight){
+            reveals[i].classList.add('active');
+        }
+        else{
+            reveals[i].classList.remove('active');
+        }
+    }
+}
+
+
+window.addEventListener('scroll',reveal);
